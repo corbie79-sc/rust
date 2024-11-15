@@ -1,0 +1,9 @@
+[package]
+name = "ruchat"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mio = { version = "1.0.2", features = ["os-poll", "net"] }
+
+
